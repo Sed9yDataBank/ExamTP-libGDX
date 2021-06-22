@@ -40,24 +40,7 @@ public class TP2017 extends ApplicationAdapter {
 		float virtualHeight = VIRTUAL_WIDTH * (float) height / width;
 		camera.setToOrtho(false, VIRTUAL_WIDTH, virtualHeight);
 	}
-
-
-	/*private void drawGrid1 () {
-		sh.begin(ShapeRenderer.ShapeType.Line);
-		sh.setColor(Color.BLACK);
-		float x1,y1;
-		y1=y;
-		for(int i=1; i<=3; i++) {
-			x1=x;
-			for (int j=1; j<=3; j++) {
-				sh.rect(x1, y1, cote, cote);
-				x1+=cote;
-			}
-			y1+=cote;
-		}
-		sh.end();
-	}*/
-
+	
 	private void drawGrid2 () {
 		sh.begin(ShapeRenderer.ShapeType.Line);
 		sh.setColor(Color.BLACK);
